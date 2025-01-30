@@ -263,5 +263,26 @@ a{
   width: 320px;
   height: 100%;
   float: left;
-  border: 2px solid  #00a8ec;
+  /* border: 2px solid  #00a8ec; */
+}
+.contact-detail
+{ width: 305px;
+  height: 110px;
+  /* border: 1px solid rebeccapurple; */
+  margin-left: 15px;
+  letter-spacing: 1px;
+  color: #efeceb;
+}
+.social-links
+{
+  width: 305px;
+  height: 38px;
+  /* border: 2px solid #ef9c00; */
+  margin-left: 15px;
+}
+.social{
+  list-style: none;
+  float: left;
+  margin: 0px 10px 0px 10px;
+
 }
