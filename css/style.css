@@ -118,6 +118,7 @@ a{
 
 .middle-container{
   width: 1130px;
+    height: 855px;
   /* background: #f1f0ef; */
   background-color: white;
   border: 20px solid #f1f0ef;
@@ -188,6 +189,75 @@ a{
 
 
 
+/* course styling start here  */
+
+.middle-right-course{
+width: 840px;
+height: 834px;
+/* border: 2px solid black; */
+float: right;
+}
+.course-status{
+  width: 816px;
+  height: 30px;
+  /* border: 2px solid #00a8ec; */
+  padding: 15px;
+  /* float: left; */
+  margin-bottom: 15px;
+}
+
+.course-content
+{
+  width: 790px;
+  height: 750px;
+  /* border: 2px solid #343130; */
+  padding: 10px 30px 0px 30px;
+}
+.course-row
+{
+  width: 800px;
+  height: 250px;
+}
+
+.courses{
+ width: 210px;
+ height: 230px;
+ /* border: 2px solid rebeccapurple; */
+ float: left;
+ border-radius: 10px;
+ margin-left: 30px;
+ overflow: hidden;
+}
+.course-icon
+{
+  width: 210px;
+  height: 140px;
+  background-color: #e6611c;
+  padding-top: 20px;
+}
+.icon{
+  width: 87px;
+  height: 80px;
+  border: 10px solid white;
+  margin: auto;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.course-name
+{
+  width: 208px;
+  height: 50px;
+  color: #e6611c;
+  padding: 5px 0px 5px 0px;
+  background-color: white; 
+  border: 1px solid #e6611c;
+  text-align: center;
+  font-size: 22px;
+  border-radius: 0px 0px 5px 5px;
+}
+
+/* course styling end here  here  */
 
 
 
@@ -195,6 +265,7 @@ a{
 
 
 
+/* footer style start here  */
 
 .footer{
   width: 1170px;
@@ -286,3 +357,5 @@ a{
   margin: 0px 10px 0px 10px;
 
 }
+
+/* footer style end here  */
