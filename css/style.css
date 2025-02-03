@@ -638,4 +638,16 @@ word-spacing: 2px;
   margin: 0px 10px 0px 10px;
 }
 
+.copy-right
+{
+  width: inherit;
+  height: 35px;
+  /* border: 2px solid red; */
+  background-color: #302d2c;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  padding-top: 5px;
+
+}
 /* footer style end here  */
