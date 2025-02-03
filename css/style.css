@@ -1,71 +1,72 @@
-*{
+* {
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
   /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
 }
 
-body{
+body {
   background-color: black;
-
+  font-family: Arial, Helvetica, sans-serif;
   /* color:black; */
 }
 
-a{
+a {
   color: inherit;
   /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
   text-decoration: none;
 }
 
-.main{
+.main {
   width: 1170px;
   height: 1604px;
   background: white;
   margin: auto;
+  /* border: 5px solid gold; */
   /* color: black; */
 }
 
-.top-contact{
+.top-contact {
   width: 100%;
   height: 40px;
-  background-color: #343130;  
+  background-color: #343130;
   /* border: 2px solid red; */
 }
 
-.left-content{
+.left-content {
   width: 275px;
   height: 33px;
   float: left;
   /* color: white; */
   /* border: 2px solid green; */
 }
-.left-img{
+.left-img {
   width: 22px;
   height: 23px;
-   float: left;
-    margin-top: 10px;
-    margin-left: 23px;
-    margin-right: 13px;
+  float: left;
+  margin-top: 10px;
+  margin-left: 23px;
+  margin-right: 13px;
 }
 
-.left-link{
+.left-link {
   width: 216px;
   height: 24px;
-  float:right;
+  float: right;
   color: #ffffff;
   margin-top: 7px;
   font-size: 20px;
 }
 
-.right-content{
+.right-content {
   width: 262px;
   height: 31px;
-   color: #ffffff;
+  color: #ffffff;
   /* border: 2px solid brown; */
   float: right;
 }
 
-.right-img{
+.right-img {
   width: 21px;
   height: 17px;
   margin-top: 12px;
@@ -73,7 +74,7 @@ a{
   float: left;
 }
 
-.right-mail-info{
+.right-mail-info {
   width: 218px;
   height: 24px;
   margin: 7px 10px 0px 0px;
@@ -82,13 +83,13 @@ a{
   float: right;
 }
 
-.menu-container{
+.menu-container {
   width: 1170px;
   height: 140px;
   background-color: white;
   /* border: 2px solid red; */
 }
-.logo{
+.logo {
   width: 165px;
   height: 125px;
   float: left;
@@ -96,13 +97,13 @@ a{
   margin-left: 50px;
 }
 
-.menu{
+.menu {
   width: 900px;
-  height: 140px ;
+  height: 140px;
   /* border: 2px solid green; */
   float: right;
 }
-.menu-items{
+.menu-items {
   margin-top: 100px;
   float: left;
   margin-left: 69px;
@@ -111,56 +112,55 @@ a{
   font-size: 20px;
 }
 
-.menu-items:hover{
-  color:#00a8ec;
-  border-bottom : 2px solid  #00a8ec ;
+.menu-items:hover {
+  color: #00a8ec;
+  border-bottom: 2px solid #00a8ec;
 }
 
-.middle-container{
+.middle-container {
   width: 1130px;
-    height: 855px;
+  height: 835px;
   /* background: #f1f0ef; */
   background-color: white;
   border: 20px solid #f1f0ef;
   border-bottom: none;
 }
 
-.middle-left{
+.middle-left {
   width: 260px;
   height: 750px;
   float: left;
   /* border: 2px solid red; */
 }
-.left-menu-items{
- width: 250px;
- height: 30px ;
- border: 3px solid white;
- text-align: center;
- background-color: #00a8ec;
- color: white;
- font-weight: bold;
- font-size: 20px;
- padding-top: 10px;
- margin-left: 10px;
- margin-top: 2px ;
+.left-menu-items {
+  width: 250px;
+  height: 30px;
+  border: 3px solid white;
+  text-align: center;
+  background-color: #00a8ec;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 10px;
+  margin-left: 10px;
+  margin-top: 2px;
 }
 
-.left-button{
+.left-button {
   width: 250px;
   height: 360px;
   /* border: 2px solid red; */
   margin-left: 12px;
   margin-top: 10px;
   overflow: hidden;
-  border-radius: 15px 15px 0px 0px ;
+  border-radius: 15px 15px 0px 0px;
   background: white;
-
 }
-.news{
+.news {
   width: 100%;
   height: 45px;
   background-color: #ef9c00;
-  color: white  ;
+  color: white;
   /* border: 2px solid black; */
   font-weight: bold;
   /* font-family: Arial, Helvetica, sans-serif; */
@@ -169,7 +169,7 @@ a{
   padding-top: 15px;
 }
 
-.news-list{
+.news-list {
   width: 248px;
   height: 240px;
   border: 1px solid #908c89;
@@ -177,27 +177,192 @@ a{
   padding-top: 10px;
   /* margin-left: 10px; */
 }
-.list{
+.list {
   width: 100%;
   height: 40px;
   margin-top: 10px;
   margin-left: 10px;
   font-family: Arial, Helvetica, sans-serif;
   color: #343130;
-
 }
 
+.middle-right {
+  width: 850px;
+  height: 834px;
+  /* border: 2px solid black; */
+  float: right;
+}
+/* home page design here  */
+.banner-img {
+  width: 830px;
+  height: 440px;
+  background: #f1f0ef;
+  padding-bottom: 15px;
+}
+.course-container {
+  width: 841px;
+  height: 270px;
+  background-color: white;
+  padding: 0px 10px 10px 0px;
+  /* border: 2px solid darkgoldenrod; */
+}
+.course-text {
+  width: 170px;
+  height: 50px;
+  margin-top: -5px;
+  background: #f1f0ef;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #00a8ec;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+.box {
+  width: 831px;
+  margin-left: 10px;
+}
+.course-icons {
+  width: 388px;
+  height: 22px;
+  /* border: 2px solid black; */
+  margin: 30px 0px 30px 0px;
+}
+.image {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 20px;
+  overflow:hidden ;
+}
+.java {
+  /* float: ; */
+  margin-top: 8px;
+  margin-left: 10px;
+  font-family: arial;
+  color: #e6611c;
+  font-weight: normal;
+}
+.box-left {
+  width: 390px;
+  height: 238px;
+  float: left;
+}
 
+.box-right {
+  float: right;
+  width: 415px;
+  height: 238px;
+}
+
+/* how we works style start herer  */
+.work-heading
+{
+  width: 1170px;
+  height: 34px;
+  text-align: center;
+  color: #00a8ec;
+  font-size: 30px;
+  font-family: arial;
+  background-color: #f1f0ef;
+  word-spacing: 5px;
+  font-weight: bold;
+  padding: 20px 0px 15px 0px;
+  /* border: 2px solid black; */
+}
+
+.work-container
+{
+  width: 1110px;
+  height: 220px;
+  margin: 0px 30px 20px 30px;
+  background-color: white;
+  /* border: 4px solid  #ef9c00; */
+}
+.how-img-box
+{
+  width: 270px;
+  height: 220px;
+  float: left;
+  margin-left: 10px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  /* border: 5px solid #e6611c; */
+  font-weight: bolder;
+  text-align: center;
+  text-shadow: 0px 0px 5px black;
+}
+
+.how-work-img1
+
+{
+  width: 270px;
+  height: 220px;
+  background: url(../images/how/HOW-WE-WORK1.png) no-repeat;
+  background-size: 168px 150px;
+  background-position: center bottom;
+}
+.how-work-img2
+
+{
+  width: 270px;
+  height: 220px;
+  background: url(../images/how/HOW-WE-WORK2.png) no-repeat;
+  background-size: 168px 150px;
+  background-position: center bottom;
+}
+.how-work-img3
+
+{
+  width: 270px;
+  height: 220px;
+  background: url(../images/how/HOW-WE-WORK3.png) no-repeat;
+  background-size: 168px 150px;
+  background-position: center bottom;
+}
+.how-work-img4
+
+{
+  width: 270px;
+  height: 220px;
+  background: url(../images/how/HOW-WE-WORK4.png) no-repeat;
+  background-size: 168px 150px;
+  background-position: center bottom;
+}
+.how-img-color{
+  width: 270px;
+  height: 150px;
+  
+  padding-top: 70px;
+}
+/* how we works style end herer  */
+
+/* home page design end here  */
+
+
+/* about page styling start here  */
+.about-contents
+{
+  width: 850px;
+  height: 836px;
+  /* border: 2px solid goldenrod; */
+}
+.about-content
+{
+margin-top: 22px;
+font-size: 18px;
+word-spacing: 2px;
+}
+/* about page styling End here  */
+
+.clear
+{
+  clear: both;
+}
 
 /* course styling start here  */
-
-.middle-right-course{
-width: 840px;
-height: 834px;
-/* border: 2px solid black; */
-float: right;
-}
-.course-status{
+.page-status {
   width: 816px;
   height: 30px;
   /* border: 2px solid #00a8ec; */
@@ -206,36 +371,33 @@ float: right;
   margin-bottom: 15px;
 }
 
-.course-content
-{
+.course-content {
   width: 790px;
   height: 750px;
   /* border: 2px solid #343130; */
   padding: 10px 30px 0px 30px;
 }
-.course-row
-{
+.course-row {
   width: 800px;
   height: 250px;
 }
 
-.courses{
- width: 210px;
- height: 230px;
- /* border: 2px solid rebeccapurple; */
- float: left;
- border-radius: 10px;
- margin-left: 30px;
- overflow: hidden;
+.courses {
+  width: 210px;
+  height: 230px;
+  /* border: 2px solid rebeccapurple; */
+  float: left;
+  border-radius: 10px;
+  margin-left: 30px;
+  overflow: hidden;
 }
-.course-icon
-{
+.course-icon {
   width: 210px;
   height: 140px;
   background-color: #e6611c;
   padding-top: 20px;
 }
-.icon{
+.icon {
   width: 87px;
   height: 80px;
   border: 10px solid white;
@@ -244,13 +406,12 @@ float: right;
   padding-top: 20px;
 }
 
-.course-name
-{
+.course-name {
   width: 208px;
   height: 50px;
   color: #e6611c;
   padding: 5px 0px 5px 0px;
-  background-color: white; 
+  background-color: white;
   border: 1px solid #e6611c;
   text-align: center;
   font-size: 22px;
@@ -259,21 +420,144 @@ float: right;
 
 /* course styling end here  here  */
 
+/* gallery style strt here  */
+
+.gallery-content
+{
+  width: 850px;
+  height: 10px;
+  padding: 10px 30px 0px 30px
+}
+.galleryimg
+{
+  width: 225px;
+  height: 220px;
+  margin-right: 35px;
+  margin-bottom: 50px;
+  float: left;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.img-title
+{
+  width: 225px;
+  height: 45px;
+  text-align: center;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  border-radius: 0px 0px 5px 5px;
+  background-color: #343130;
+  padding: 12px 0px 12px 0px;
+}
+
+/* gallery style End here  */
+
+/* enquiry style Start here  */
+
+.form-content
+{
+  width: 850px;
+  height: 625px;
+  /* border: 2px solid rebeccapurple; */
+}
+.form-row
+{
+  width: 500px;
+  height: 34px;
+  margin: 30px 0px 20px 20px ;
+}
+.formlabel
+{
+  width: 100px;
+  height: 18px;
+  font-size: 16px;
+  font-weight: bold;
+  float: left;
+}
+.input-style
+{
+  width: 200px;
+  height: 30px;
+  color: #5b5b5b;
+  font-weight: 16px;
+  padding-left: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.textarea
+{
+  width: 200px;
+  height: 100px;
+  color: #5b5b5b;
+  padding-left: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.button
+{
+  background-color: #09f;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 10px;
+  margin: 0px auto;
+  cursor: pointer;
+}
+/* enquiry style End here  */
 
 
+/* contact page style Start here  */
 
+.contact-containers{
+  width: 800px;
+  height: 750px;
+  margin-bottom: 30px;
+  padding: 10px 30px 0px 30px;
+  /* border: 2px solid #e6611c; */
+}
 
+.contact-row
+{
+  width: 750px;
+  height: 250px;
+  padding: 0px 25px 0px 25px;
+}
+.contact-left
+{
+  width: 320px;
+  height: 250px;
+  float: left;
+  text-align: center;
+  color: #343130;
+}
 
+.contact-right
+{
+  width: 270px;
+  height: 250px;
+  float: right;
+  text-align: center;
+  color: #343130;
+  margin-left: 100px;
+}
+.contact-map
+{
+  width: 800px;
+  height: 401px;
+}
+
+/* contact page style End  here  */
 
 /* footer style start here  */
 
-.footer{
+.footer {
   width: 1170px;
   height: 360px;
   /* border: 2px solid fuchsia; */
-
 }
-.footer-container{
+.footer-container {
   width: 1170px;
   height: 295px;
   background-color: #343130;
@@ -281,7 +565,7 @@ float: right;
   padding-top: 25px;
 }
 
-.quicks-links{
+.quicks-links {
   width: 225px;
   height: 100%;
   /* border: 2px solid  #ef9c00; */
@@ -289,40 +573,38 @@ float: right;
   float: left;
 }
 
-.h2-design{
+.h2-design {
   letter-spacing: 1px;
- color: #efeceb;
- height: 40px;
+  color: #efeceb;
+  height: 40px;
 }
-.training-content{
+.training-content {
   width: 100%;
   height: 225px;
-
 }
-.quick-list{
+.quick-list {
   margin-top: 20px;
   list-style: none;
   color: #efeceb;
   margin-left: 10px;
 }
 
-
-.training-container{
+.training-container {
   width: 520px;
   height: 100%;
   /* border: 2px solid fuchsia; */
   float: left;
-  margin-left: 30px ;
+  margin-left: 30px;
 }
-.training-content{
+.training-content {
   width: 249px;
   height: 100%;
   /* border: 2px solid greenyellow ; */
   margin-left: 10px;
   float: left;
 }
-.training-list{
-  width:225px;
+.training-list {
+  width: 225px;
   height: 18px;
   margin-top: 20px;
   list-style: none;
@@ -330,32 +612,30 @@ float: right;
   float: left;
 }
 
-.contact-container{
+.contact-container {
   width: 320px;
   height: 100%;
   float: left;
   /* border: 2px solid  #00a8ec; */
 }
-.contact-detail
-{ width: 305px;
+.contact-detail {
+  width: 305px;
   height: 110px;
   /* border: 1px solid rebeccapurple; */
   margin-left: 15px;
   letter-spacing: 1px;
   color: #efeceb;
 }
-.social-links
-{
+.social-links {
   width: 305px;
   height: 38px;
   /* border: 2px solid #ef9c00; */
   margin-left: 15px;
 }
-.social{
+.social {
   list-style: none;
   float: left;
   margin: 0px 10px 0px 10px;
-
 }
 
 /* footer style end here  */
